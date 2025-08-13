@@ -202,11 +202,6 @@ export const actions = {
             })
             commit("setMapStyles", mapStyles)
 
-            // Set free / PRO plan details.
-            settings.plans.pro.price = {
-                yearly: parseFloat(core.paddle.prices.yearlyPrice.unitPrice.amount) / 100,
-                lifetime: parseFloat(core.paddle.prices.lifetimePrice.unitPrice.amount) / 100
-            }
             commit("setPlanDetails", settings.plans)
 
             // Set fitness level enum.
@@ -221,20 +216,8 @@ export const actions = {
             // Set AI generative humours.
             commit("setAiHumours", settings.ai.humours)
 
-            // Set Paddle details.
-            settings.paddle.priceId = {
-                yearly: core.paddle.prices.yearlyPrice.id,
-                lifetime: core.paddle.prices.lifetimePrice.id
-            }
-            commit("setPaddle", settings.paddle)
-
             // Set country and currency.
             let country = req.headers["cf-ipcountry"] || "US"
-            for (let po of core.paddle.prices.yearlyPrice.unitPriceOverrides) {
-                for (let c of po.countryCodes) {
-                    countryCurrency[c] = po.unitPrice.currencyCode
-                }
-            }
             commit("setCountryCurrency", country)
         }
 

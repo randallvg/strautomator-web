@@ -6,15 +6,15 @@ module.exports = {
     telemetry: false,
 
     head: {
-        titleTemplate: "Strautomator - %s",
-        title: "Strautomator",
+        titleTemplate: "AutoStrive - %s",
+        title: "AutoStrive",
         meta: [
             {charset: "utf-8"},
             {name: "viewport", content: "width=device-width, initial-scale=1"},
             {
                 hid: "description",
                 name: "description",
-                content: "Turbocharge your Strava activities with automated rules! Strautomator is like IFTTT, but for Strava."
+                content: "Turbocharge your Strava activities with automated rules! AutoStrive is like IFTTT, but for Strava."
             }
         ],
         link: [{rel: "icon", type: "image/x-icon", href: "/favicon.png"}],

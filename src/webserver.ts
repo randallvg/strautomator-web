@@ -1,7 +1,6 @@
 // Strautomator: WebServer
 
 import {strava, paypal} from "strautomator-core"
-import countryLinkify from "country-linkify"
 import express = require("express")
 import _ from "lodash"
 import fs = require("fs")
@@ -151,19 +150,6 @@ class WebServer {
                     const basename = path.basename(r).split(".")[0]
                     this.app.use(`/api/${basename}`, require(`./routes/api/${r}`))
                 }
-            }
-
-            // Setup affiliate links.
-            if (settings.affiliates.server.url) {
-                this.app.use((req, _res, next) => {
-                    if (req.subdomains.length > 0 && settings.affiliates.server.url.includes(req.hostname)) {
-                        req.url = settings.affiliates.server.basePath + req.url.substring(1)
-                    }
-                    next()
-                })
-
-                await countryLinkify(settings.affiliates, this.app)
-                logger.info("WebServer.init", `Affiliate links available at ${settings.affiliates.server.url}`)
             }
 
             // Use Nuxt render.
