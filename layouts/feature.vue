@@ -22,7 +22,7 @@ import FooterSection from "~/components/FooterSection.vue"
 export default {
     components: {FeatureLinks, FooterSection},
     head: {
-        meta: [{hid: "description", name: "description", content: "Automate your Strava activities! Strautomator is like IFTTT, but for Strava."}]
+        meta: [{hid: "description", name: "description", content: "Automate your Strava activities! AutoStrive is like IFTTT, but for Strava."}]
     }
 }
 </script>

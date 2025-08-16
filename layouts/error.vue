@@ -18,12 +18,12 @@
                         If you are just sneaking around then I wish you happy exploring.
                         <br v-if="$breakpoint.mdAndUp" />
                         Otherwise, if you need help, please contact me on
-                        <a href="mailto:info@strautomator.com" title="Bug report via email">info@strautomator.com</a>.
+                        <a href="mailto:info@autostrive.nl" title="Bug report via email">info@autostrive.nl</a>.
                     </p>
                 </div>
                 <v-alert color="error" border="top" v-if="stravaStatus" class="mt-4 mb-4">
                     <div class="font-weight-bold">Strava status: {{ stravaStatus }}</div>
-                    <p>Please note that outages and issues on the Strava website might possibly affect Strautomator.</p>
+                    <p>Please note that outages and issues on the Strava website might possibly affect AutoStrive.</p>
                     <div>
                         <a class="secondary--text" href="https://status.strava.com" title="Strava API status">https://status.strava.com</a>
                     </div>

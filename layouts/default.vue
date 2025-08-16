@@ -4,7 +4,7 @@
             <v-toolbar-title class="mr-10 ml-1">
                 <n-link to="/dashboard" nuxt router>
                     <img src="/images/logo-round.svg" width="48" height="48" class="strautologo float-left" />
-                    <span class="d-inline-block ml-2 mt-2">Strautomator</span>
+                    <span class="d-inline-block ml-2 mt-2">AutoStrive</span>
                 </n-link>
             </v-toolbar-title>
 
@@ -91,7 +91,7 @@
                     </v-toolbar-items>
                 </v-toolbar>
                 <v-card-text>
-                    <p class="mt-3">Do you want to logout from Strautomator?</p>
+                    <p class="mt-3">Do you want to logout from AutoStrive?</p>
                     <p>To log back in please use the <strong>Connect with Strava</strong> button again on the homepage.</p>
                     <div class="text-right">
                         <v-spacer></v-spacer>
@@ -148,7 +148,7 @@ export default {
     authenticated: true,
     components: {AdsPanel, FooterSection, TopNotifications},
     head: {
-        meta: [{hid: "description", name: "description", content: "Automate your Strava activities! Strautomator is like IFTTT, but for Strava."}]
+        meta: [{hid: "description", name: "description", content: "Automate your Strava activities! AutoStrive is like IFTTT, but for Strava."}]
     },
     data() {
         return {
