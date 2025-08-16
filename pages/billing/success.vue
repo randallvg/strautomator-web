@@ -6,7 +6,7 @@
                 <v-card-text>
                     <p>Hi {{ user.profile.firstName }}!</p>
                     <p v-if="this.$route.query.donation">Your support is truly appreciated! Your account will be switched to PRO automatically in a few minutes.</p>
-                    <p v-else>Your donation is truly appreciated! Hope you are enjoying all the features that Strautomator has to offer.</p>
+                    <p v-else>Your donation is truly appreciated! Hope you are enjoying all the features that AutoStrive has to offer.</p>
                 </v-card-text>
             </v-card>
             <div class="mt-8 text-center">

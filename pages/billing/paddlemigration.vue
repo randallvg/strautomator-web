@@ -48,8 +48,8 @@
 
                 <div v-else>
                     <p class="mt-4 mb-6">We welcome all users who have subscribed using PayPal to migrate their PRO subscriptions to <a href="https://paddle.com/about" title="Paddle.com" target="paddle">Paddle.com</a>.</p>
-                    <h4 class="mb-1 text-md-h6">Why is Strautomator switching to Paddle?</h4>
-                    <p>Paddle is a well established billing platform that supports more payment methods compared to PayPal. Additionally, they act as a Merchant of Record for Strautomator, taking care of all billing and payment related tasks.</p>
+                    <h4 class="mb-1 text-md-h6">Why is AutoStrive switching to Paddle?</h4>
+                    <p>Paddle is a well established billing platform that supports more payment methods compared to PayPal. Additionally, they act as a Merchant of Record for AutoStrive, taking care of all billing and payment related tasks.</p>
 
                     <h4 class="mb-1 text-md-h6">Do I need to migrate?</h4>
                     <p>No. The migration from PayPal to Paddle is recommended, but not enforced.</p>
@@ -173,7 +173,7 @@ export default {
                     Paddle.Checkout.close()
                 }
             } catch (ex) {
-                this.errorMessage = "If you need any support, please contact us via email at info@strautomator.com."
+                this.errorMessage = "If you need any support, please contact us via email at info@autostrive.nl"
             }
         },
         async cancelPayPal() {

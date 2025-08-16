@@ -9,7 +9,7 @@
                 </div>
             </template>
             <template v-else>
-                <div>Try out Strautomator's generated activity names and descriptions, powered by AI!</div>
+                <div>Try out AutoStrive's generated activity names and descriptions, powered by AI!</div>
                 <v-card class="mt-6" outlined>
                     <v-card-text class="pb-2 pb-md-0">
                         <v-container class="ma-0 pa-0" fluid>

@@ -6,7 +6,7 @@ vue
         <v-card color="black" class="mb-4 home-panel">
             <v-card-text>
                 <div class="text-left">
-                    <p>Strautomator allows you to add your Spotify track list and track lyrics to your activities!</p>
+                    <p>AutoStrive allows you to add your Spotify track list and track lyrics to your activities!</p>
 
                     <h2 class="mb-2">1. Link your Spotify account</h2>
                     <v-img class="mb-2" src="/images/feature/spotify-link.png"></v-img>

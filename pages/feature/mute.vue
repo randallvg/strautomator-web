@@ -6,7 +6,7 @@ vue
         <v-card color="black" class="mb-4 home-panel">
             <v-card-text>
                 <div class="text-left">
-                    <p>Strautomator can automatically mute your commutes, rides to the bakery, short runs... basically any activity that you wish to be hidden from friend's feeds.</p>
+                    <p>AutoStrive can automatically mute your commutes, rides to the bakery, short runs... basically any activity that you wish to be hidden from friend's feeds.</p>
 
                     <h2 class="mb-2">1. First, define the conditions</h2>
                     <v-img class="mb-2" src="/images/feature/condition-end-location.png"></v-img>
@@ -14,7 +14,7 @@ vue
 
                     <h2 class="mb-2">2. Then, create a mute action</h2>
                     <v-img class="mb-2" src="/images/feature/action-mute.png"></v-img>
-                    <div class="mb-8">The action above tells Strautomator to mute the activity on other people's feeds.</div>
+                    <div class="mb-8">The action above tells AutoStrive to mute the activity on other people's feeds.</div>
 
                     <h2 class="mb-2">3. Review your automation</h2>
                     <v-img class="mb-2" src="/images/feature/mute-automation.png"></v-img>

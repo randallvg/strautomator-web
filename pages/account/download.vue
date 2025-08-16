@@ -5,7 +5,7 @@
             <v-card class="mt-3" outlined>
                 <v-card-text class="pa-0">
                     <div class="pa-4">
-                        Here you can download a ZIP file with all the data that Strautomator holds about you.
+                        Here you can download a ZIP file with all the data that AutoStrive holds about you.
                         <div v-if="user && user.dateLastArchiveGenerated">You can generate a new archive every {{ this.$store.state.archiveDownloadDays }} days. One was last generated on {{ $dayjs(user.dateLastArchiveGenerated).format("ll") }}.</div>
                     </div>
                     <h3 class="pl-4 pb-2">What's included?</h3>

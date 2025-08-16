@@ -33,7 +33,7 @@
                 <user-automations />
                 <v-alert class="mt-6 text-center text-md-left">
                     <div>
-                        Want to check what Strautomator has updated for you in the past?
+                        Want to check what AutoStrive has updated for you in the past?
                         <br v-if="!$breakpoint.mdAndUp" />
                         Go to the <n-link to="/automations/history" title="Automation history" nuxt>automation history.</n-link>
                     </div>

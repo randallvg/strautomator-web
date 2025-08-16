@@ -7,7 +7,7 @@
             <div class="home-wrapper">
                 <h1 class="font-weight-light mt-1 mb-2" :class="$breakpoint.mdAndUp ? 'display-1' : 'headline'">Enhance your Strava</h1>
                 <div>with</div>
-                <h2 class="display-2 font-weight-bold mb-4">Strautomator</h2>
+                <h2 class="display-2 font-weight-bold mb-4">AutoStrive</h2>
 
                 <div class="mt-6 mb-2">
                     <a title="Connect with Strava..." @click="login()"><img class="strava-connect" src="/images/strava-connect.svg" /></a>
@@ -38,7 +38,7 @@
                         <div class="home-faq mt-2 px-1 text-left">
                             <h2>How does it work?</h2>
                             <div>
-                                <p>All you need to do is connect your Strava account to Strautomator and start using its features.</p>
+                                <p>All you need to do is connect your Strava account to AutoStrive and start using its features.</p>
                             </div>
                         </div>
 

@@ -309,7 +309,7 @@ export default {
                 const bikeLightStyle = new google.maps.StyledMapType(mapStyles.bikeLight, {name: "Bike Light"})
 
                 this.map = new google.maps.Map(this.$refs.googlemaps, {
-                    mapId: "strautomator",
+                    mapId: "autostrive",
                     gestureHandling: "greedy",
                     fullscreenControl: true,
                     zoom: 9,

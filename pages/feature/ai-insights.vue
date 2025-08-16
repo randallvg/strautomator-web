@@ -5,7 +5,7 @@
         <v-card color="black" class="mb-4 home-panel">
             <v-card-text>
                 <div class="text-left">
-                    <p>If you want some advice about your activity performance, Strautomator can generate AI insights for your activities.</p>
+                    <p>If you want some advice about your activity performance, AutoStrive can generate AI insights for your activities.</p>
                     <v-img class="mb-8" src="/images/feature/action-auto-generate.png"></v-img>
 
                     <h2 class="mb-2">Multiple AI providers</h2>

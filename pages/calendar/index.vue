@@ -5,7 +5,7 @@
             <v-card class="mt-5" v-if="user" outlined>
                 <v-card-text>
                     <p>
-                        Strautomator can export your Strava activities, club events and gear component history using the iCal format.<br />
+                        AutoStrive can export your Strava activities, club events and gear component history using the iCal format.<br />
                         Please set your desired options, and then use the generated URL to subscribe.
                     </p>
 

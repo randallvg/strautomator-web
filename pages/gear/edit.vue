@@ -5,7 +5,7 @@
                 <v-card-title class="accent">
                     <span>Invalid or deprecated gear</span>
                 </v-card-title>
-                <v-card-text class="pt-2">The gear ID "{{ gearId }}" could not be found on your profile. It was probably deleted from your Strava account, and if that's the case, it will also be deleted from Strautomator soon.</v-card-text>
+                <v-card-text class="pt-2">The gear ID "{{ gearId }}" could not be found on your profile. It was probably deleted from your Strava account, and if that's the case, it will also be deleted from AutoStrive soon.</v-card-text>
             </v-card>
             <div class="mt-4 text-center text-md-left">
                 <v-btn color="primary" to="/gear" exact nuxt rounded>

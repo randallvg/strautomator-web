@@ -5,7 +5,7 @@
         <v-card color="black" class="mb-4 home-panel">
             <v-card-text>
                 <div class="text-left">
-                    <p>Strautomator can automatically add a counter to your repeating activities. For instance you could name your regular cake rides as "Cake ride #1" and "#2, #3, #4" and so on.</p>
+                    <p>AutoStrive can automatically add a counter to your repeating activities. For instance you could name your regular cake rides as "Cake ride #1" and "#2, #3, #4" and so on.</p>
 
                     <h2 class="mb-2">1. First, define the conditions</h2>
                     <v-img class="mb-2" src="/images/feature/condition-end-location.png"></v-img>

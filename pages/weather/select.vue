@@ -13,11 +13,11 @@
             </template>
             <template v-else-if="positionFailed">
                 <v-alert border="top" color="error">
-                    Failed to get your current location. Please make sure you have authorized the Strautomator website to get your geolocation with this browser, and if necessary, try again with a different browser.
+                    Failed to get your current location. Please make sure you have authorized the AutoStrive website to get your geolocation with this browser, and if necessary, try again with a different browser.
                 </v-alert>
             </template>
             <template v-else-if="weatherSummaries.length == 0">
-                <p>Not sure which weather provider is the best on your area? Strautomator can query all of them for the current weather conditions on your location, so then you can select the one presenting the most accurate results.</p>
+                <p>Not sure which weather provider is the best on your area? AutoStrive can query all of them for the current weather conditions on your location, so then you can select the one presenting the most accurate results.</p>
                 <div :class="{'text-center mt-6': !$breakpoint.mdAndUp}">
                     <v-btn class="mr-2" color="primary" title="Get weather for my current location" v-if="!loading" @click="getPosition" rounded>
                         <v-icon left>mdi-weather-sunset-down</v-icon>

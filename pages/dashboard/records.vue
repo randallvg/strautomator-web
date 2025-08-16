@@ -17,7 +17,7 @@
                             <div>
                                 <v-icon class="mb-4" x-large>mdi-cancel</v-icon>
                             </div>
-                            Privacy mode is enabled on your account settings. Please disable it if you wish to track your personal records with Strautomator.
+                            Privacy mode is enabled on your account settings. Please disable it if you wish to track your personal records with AutoStrive.
                         </div>
                     </template>
                     <template v-else-if="refreshing">
@@ -37,7 +37,7 @@
                     </template>
                     <template v-else>
                         <div>
-                            Strautomator can keep track of your personal records!
+                            AutoStrive can keep track of your personal records!
                             <br v-if="$breakpoint.mdAndUp" />
                             Want to enable the feature? Start now by fetching your existing activity records.
                         </div>

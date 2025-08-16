@@ -5,27 +5,24 @@
 
         <v-container class="text-center" fluid>
             <div class="home-wrapper">
-                <h1 class="font-weight-light mt-1 mb-2" :class="$breakpoint.mdAndUp ? 'display-1' : 'headline'">Strautomator</h1>
+                <h1 class="font-weight-light mt-1 mb-2" :class="$breakpoint.mdAndUp ? 'display-1' : 'headline'">AutoStrive</h1>
                 <h2 class="display-2 font-weight-bold mb-4">Impressum</h2>
 
                 <v-card color="black" class="mb-2 text-left">
                     <v-card-text>
                         <h4 class="mt-2 mb-6">Responsible according to §5 TMG</h4>
                         <p>
-                            <strong>Igor Ramadas Leite Nogueira</strong><br />
-                            Software Engineer<br />
-                            Einzelunternehmen<br />
-                            Business ID: DE454468590
+                            <strong>Figure4 Media</strong><br />
                         </p>
                         <p>
-                            Pappelallee 3<br />
-                            10437 Berlin<br />
-                            Germany
+                            Meerkoet 31 3<br />
+                            4617KN Bergen op Zoom<br />
+                            The Netherlands
                         </p>
 
                         <p>
-                            Website: https://strautomator.com<br />
-                            Email: info@strautomator.com
+                            Website: https://figure4.nl<br />
+                            Email: info@autostrive.nl
                         </p>
 
                         <div class="text-center mt-6">

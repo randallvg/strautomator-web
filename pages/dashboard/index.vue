@@ -30,7 +30,7 @@
             </v-alert>
             <div class="mb-4">
                 See something new? Check the
-                <n-link to="/changelog" title="Strautomator updates" nuxt>changelog</n-link>
+                <n-link to="/changelog" title="AutoStrive updates" nuxt>changelog</n-link>
                 to keep track of new features and bug fixes.
             </div>
             <div v-if="!recipes || recipes.length == 0">
@@ -49,7 +49,7 @@
                         <div class="mt-4 pl-4 pr-4" v-else-if="activities.length == 0">
                             <p>
                                 <v-icon color="secondary" class="mr-1">mdi-alert-circle-outline</v-icon>
-                                None of your activities were processed by Strautomator yet.
+                                None of your activities were processed by AutoStrive yet.
                             </p>
                             <p>
                                 Maybe you want to double check your

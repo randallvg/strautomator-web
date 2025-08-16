@@ -6,7 +6,7 @@ vue
         <v-card color="black" class="mb-4 home-panel">
             <v-card-text>
                 <div class="text-left">
-                    <p>Strautomator can automatically set different map styles for different types of activities. Power for rides, speed for runs, and Satellite 3D for hikes? Easy!</p>
+                    <p>AutoStrive can automatically set different map styles for different types of activities. Power for rides, speed for runs, and Satellite 3D for hikes? Easy!</p>
 
                     <h2 class="mb-2">1. Define a sport type condition</h2>
                     <v-img class="mb-2" src="/images/feature/condition-sport-type.png"></v-img>

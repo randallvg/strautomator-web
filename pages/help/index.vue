@@ -3,12 +3,12 @@
         <div class="stripe" v-if="!loggedIn"></div>
         <v-container class="text-center" :class="{'help-wrapper': !loggedIn}" fluid>
             <div :class="{'width-wrapper': !loggedIn, 'text-left': loggedIn}">
-                <h1 :class="{'mt-10': !loggedIn, 'text-center': !loggedIn}">{{ loggedIn ? "Help" : "Strautomator Help" }}</h1>
+                <h1 :class="{'mt-10': !loggedIn, 'text-center': !loggedIn}">{{ loggedIn ? "Help" : "AutoStrive Help" }}</h1>
 
                 <v-text-field v-model="searchValue" :loading="loading" @input="debounceSearch" label="Keyword search" class="mt-2" rounded outlined></v-text-field>
 
                 <div class="text-center text-caption mt-n4">Use the field above to search by keywords.</div>
-                <div class="text-center text-caption mb-6">If you're interested you can also view the <n-link to="/changelog" title="Strautomator updates" nuxt>changelog</n-link>.</div>
+                <div class="text-center text-caption mb-6">If you're interested you can also view the <n-link to="/changelog" title="AutoStrive updates" nuxt>changelog</n-link>.</div>
                 <div v-for="group in groupedQuestions" :key="group.title">
                     <h2 class="mb-1 ml-1">{{ group.title }}</h2>
                     <v-alert class="ma-0" v-if="groupedQuestions[0].questions.length == 0"> No results found. </v-alert>
@@ -24,15 +24,14 @@
                     </v-expansion-panels>
                 </div>
                 <div class="text-center text-md-left">
-                    Still can't find what you're looking for? Drop an email to <a href="mailto:info@strautomator.com" title="Email support">info@strautomator.com</a> or a message to
-                    <a href="https://x.com/strautomator" title="Strautomator @ X">@strautomator</a>.
+                    Still can't find what you're looking for? Drop an email to <a href="mailto:info@autostrive.nl" title="Email support">info@autostrive.nl</a>.
                 </div>
 
                 <div class="mt-10 text-center" v-if="!loggedIn">
                     <a title="Connect with Strava..." @click="login()"><img class="strava-connect" src="/images/strava-connect.svg" /></a>
                 </div>
 
-                <div class="mt-10 mb-4 text-center" title="Back to Strautomator home..." v-if="!loggedIn">
+                <div class="mt-10 mb-4 text-center" title="Back to AutoStrive home..." v-if="!loggedIn">
                     <v-btn color="primary" @click="backHome" rounded>
                         <v-icon left>mdi-home</v-icon>
                         Back to home

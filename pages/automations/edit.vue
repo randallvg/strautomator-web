@@ -91,7 +91,7 @@
                                                     rounded
                                                 ></v-select>
                                             </v-alert>
-                                            <p>Further technical details can be found directly on <a href="https://github.com/strautomator/core/blob/master/src/recipes/lists.ts" target="github">GitHub</a>.</p>
+                                            <p>Further technical details can be found directly on <a href="https://github.com/randallvg/strautomator-core/blob/master/src/recipes/lists.ts" target="github">GitHub</a>.</p>
                                         </div>
                                     </v-card-text>
                                 </v-card>

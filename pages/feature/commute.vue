@@ -6,7 +6,7 @@ vue
         <v-card color="black" class="mb-4 home-panel">
             <v-card-text>
                 <div class="text-left">
-                    <p>Strautomator can automatically tag your daily commutes!</p>
+                    <p>AutoStrive can automatically tag your daily commutes!</p>
 
                     <h2 class="mb-2">1. First, define the conditions</h2>
                     <v-img class="mb-2" src="/images/feature/condition-end-location.png"></v-img>
@@ -14,7 +14,7 @@ vue
 
                     <h2 class="mb-2">2. Then create a commute action</h2>
                     <v-img class="mb-2" src="/images/feature/action-commute.png"></v-img>
-                    <div class="mb-8">The action above tells Strautomator to mark the activity as "Commute" on Strava.</div>
+                    <div class="mb-8">The action above tells AutoStrive to mark the activity as "Commute" on Strava.</div>
 
                     <h2 class="mb-2">3. Review your automation</h2>
                     <v-img class="mb-2" src="/images/feature/commute-automation.png"></v-img>

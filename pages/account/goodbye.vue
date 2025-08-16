@@ -8,7 +8,7 @@
                         <h2 class="mb-6">Danger zone</h2>
                         <p>
                             <span class="font-weight-bold">Are you really sure?</span>
-                            Once you hit that button, there's no way back. All your data will be deleted straight away, and Strautomator will drop its connection to your Strava account.
+                            Once you hit that button, there's no way back. All your data will be deleted straight away, and AutoStrive will drop its connection to your Strava account.
                         </p>
                         <div class="text-center mt-8">
                             <v-btn color="gray" class="mr-2" to="/account" title="Back to my account" text rounded nuxt>
@@ -23,7 +23,7 @@
                     </div>
                     <div v-else>
                         <p class="title mb-2">Sad to see you go &#x1F615;</p>
-                        <p>If you change your mind in the future you can always come back and connect Strautomator to your Strava account again.</p>
+                        <p>If you change your mind in the future you can always come back and connect AutoStrive to your Strava account again.</p>
                         <p class="mt-12">
                             <n-link to="/home" title="Back to the homepage..." class="caption" nuxt>Back to the homepage...</n-link>
                         </p>

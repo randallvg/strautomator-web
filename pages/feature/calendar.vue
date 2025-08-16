@@ -6,7 +6,7 @@
             <v-card-text>
                 <div class="text-left">
                     <p>
-                        With Strautomator, you can have your Strava activities and upcoming club events displayed on your favourite calendar app. Calendars are exported with the .ics format, and compatible with most popular calendar applications and
+                        With AutoStrive, you can have your Strava activities and upcoming club events displayed on your favourite calendar app. Calendars are exported with the .ics format, and compatible with most popular calendar applications and
                         services.
                     </p>
 

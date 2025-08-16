@@ -5,7 +5,7 @@
         <v-card color="black" class="mb-4 home-panel">
             <v-card-text>
                 <div class="text-left">
-                    <p>Strautomator can estimate and update the Functional Threshold Power setting on your Strava account, based on your most intensive efforts for the past few weeks.</p>
+                    <p>AutoStrive can estimate and update the Functional Threshold Power setting on your Strava account, based on your most intensive efforts for the past few weeks.</p>
 
                     <h2 class="mb-2">How does it estimate my FTP?</h2>
                     <div class="mb-8">
@@ -14,7 +14,7 @@
                             <li>C = current FTP on Strava, weighted to 130%</li>
                             <li>H = estimated FTP for your highest power effort during the past {{ $store.state.ftpWeeks }} weeks</li>
                         </ul>
-                        <div class="mt-4 mb-2">For each recent activity, Strautomator will derive a FTP estimation based on well known formulas.</div>
+                        <div class="mt-4 mb-2">For each recent activity, AutoStrive will derive a FTP estimation based on well known formulas.</div>
                         <ul class="ml-n2">
                             <li>79% of your best 5min interval</li>
                             <li>94% of your best 20min interval</li>

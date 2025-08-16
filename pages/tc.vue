@@ -5,15 +5,15 @@
 
         <v-container class="text-center" fluid>
             <div class="home-wrapper">
-                <h1 class="font-weight-light mt-1 mb-2" :class="$breakpoint.mdAndUp ? 'display-1' : 'headline'">Strautomator</h1>
+                <h1 class="font-weight-light mt-1 mb-2" :class="$breakpoint.mdAndUp ? 'display-1' : 'headline'">AutoStrive</h1>
                 <h2 class="display-2 font-weight-bold mb-4">Terms and Conditions</h2>
 
                 <v-card color="black" class="mb-2 text-left">
                     <v-card-text>
                         <h4 class="mt-2 mb-6">Policy effective as of May 24th, 2025</h4>
-                        <h2 class="mt-2 mb-4">About Strautomator</h2>
+                        <h2 class="mt-2 mb-4">About AutoStrive</h2>
                         <p>
-                            Please read these Terms of Service ("Terms", "Terms of Service") carefully before using the Strautomator website (the "Service"), available at https://strautomator.com, and operated by Igor Ramadas Leite Nogueira ("us",
+                            Please read these Terms of Service ("Terms", "Terms of Service") carefully before using the AutoStrive website (the "Service"), available at https://autostrive.nl, and operated by Figure4 Media ("us",
                             "we", or "our").
                         </p>
                         <p>
@@ -61,7 +61,7 @@
 
                         <h3 class="mt-6 mb-4">Disclosure of information to third parties</h3>
                         <p>We do not disclose any of your personal information to unauthorized third parties or individuals, except when required by the EU law.</p>
-                        <p>If you subscribe to Strautomator PRO, some of your personal details will be exchanged with our Merchant of Record, Paddle.com.</p>
+                        <p>If you subscribe to AutoStrive PRO, some of your personal details will be exchanged with our Merchant of Record, Paddle.com.</p>
                         <p>If you wish to use AI features, some of your activity metadata will be sent out to an external AI provider (Anthropic, Google, Mistral, OpenAI, xAI) for processing.</p>
 
                         <h3 class="mt-6 mb-4">Controlling your personal information</h3>
@@ -77,7 +77,7 @@
 
                         <h4 class="mt-1 mb-2">Feature: "Privacy mode"</h4>
                         <p>
-                            You have the option on your account preferences to enable a feature called "Privacy mode". If such feature is enabled, Strautomator will anonymize some of your account details and delete most of the processed data related
+                            You have the option on your account preferences to enable a feature called "Privacy mode". If such feature is enabled, AutoStrive will anonymize some of your account details and delete most of the processed data related
                             to your account, including but not limited to:
                         </p>
                         <ul class="mb-6">
@@ -98,7 +98,7 @@
 
                         <h2 class="mt-6 mb-4">Subscriptions</h2>
                         <p>
-                            Some of our services are available only via a subscription plan named Strautomator PRO (the "Subscription"), billed on a monthly or yearly basis, or bought with a single payment that is valid for the lifetime of the
+                            Some of our services are available only via a subscription plan named AutoStrive PRO (the "Subscription"), billed on a monthly or yearly basis, or bought with a single payment that is valid for the lifetime of the
                             Service. The Subscription might also be acquired via affiliate campaigns.
                         </p>
                         <p>
@@ -164,7 +164,7 @@
 
                         <h2 class="mt-6 mb-4">Limitation of liability</h2>
                         <p>
-                            In no event shall Strautomator, nor its developers, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of
+                            In no event shall AutoStrive, nor its developers, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of
                             profits, data, use, goodwill, or other intangible losses, resulting from:
                         </p>
                         <ul class="mb-6">
@@ -184,11 +184,11 @@
                         <p>
                             At our discretion, we may change our Terms and Conditions to reflect updates to the Service, current acceptable practices, or legislative or regulatory changes. If we decide to change our Terms and Conditions, we will post
                             the changes here at the same link by which you are accessing now. The full history of changes to our Terms and Conditions are available in our public source control repository, at the following address:
-                            https://github.com/strautomator/web/blob/master/pages/tc.vue
+                            https://github.com/randallvg/strautomator-web/blob/master/pages/tc.vue
                         </p>
 
                         <h2 class="mt-6 mb-4">Contact us</h2>
-                        <p>For any questions or concerns, you may contact us on the following email: info@strautomator.com</p>
+                        <p>For any questions or concerns, you may contact us on the following email: info@autostrive.nl</p>
 
                         <div class="text-center mt-6">
                             <v-btn color="primary" @click="goBack" rounded>Back {{ backTarget }}</v-btn>

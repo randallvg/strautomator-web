@@ -20,7 +20,7 @@
             </template>
             <template v-else>
                 <v-alert class="text-center text-md-left" v-if="!user.email">
-                    <p>To get GearWear distance alerts, Strautomator needs to know your email address first.</p>
+                    <p>To get GearWear distance alerts, AutoStrive needs to know your email address first.</p>
                     <v-btn color="primary" title="Set your email address now" @click="emailDialog = true" rounded small>Set my email address</v-btn>
                     <email-dialog :show-dialog="emailDialog" @closed="hideEmailDialog" />
                 </v-alert>

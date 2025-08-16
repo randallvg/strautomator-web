@@ -99,7 +99,7 @@
                     <v-divider class="mt-6 mb-4" />
                     <div class="mt-n1">
                         <h3 class="mb-2">FTP auto update{{ user.isPro ? "" : " (PRO only)" }}</h3>
-                        <div class="body-2">Strautomator can automatically update your cycling FTP and your estimated fitness level based on your recent activities.</div>
+                        <div class="body-2">AutoStrive can automatically update your cycling FTP and your estimated fitness level based on your recent activities.</div>
                         <v-switch class="mt-2" title="FTP auto-update" v-model="ftpAutoUpdate" :disabled="!user.isPro" :label="ftpAutoUpdate ? 'Yes, auto-update my Strava FTP' : 'No, leave my Strava FTP alone'"></v-switch>
                     </div>
                     <div class="mb-8 mt-n2 text-center text-md-left">
@@ -113,7 +113,7 @@
                     <div class="mt-4">
                         <h3 class="mb-2">Delayed processing</h3>
                         <div class="body-2">
-                            Do you want Strautomator to wait a few minutes before processing your activities? Useful if you have other services updating your Strava as well, or if you want to have some time to change details / add photos before your
+                            Do you want AutoStrive to wait a few minutes before processing your activities? Useful if you have other services updating your Strava as well, or if you want to have some time to change details / add photos before your
                             automations are executed.
                         </div>
                         <v-switch class="mt-2" title="Delayed processing" v-model="delayedProcessing" :label="delayedProcessing ? 'Yes, delay the processing' : 'No, process activities ASAP'"></v-switch>
@@ -181,8 +181,8 @@
                     <div class="mt-4">
                         <h3 class="mb-2">Linkback preferences</h3>
                         <div class="body-2">
-                            <span v-if="linksOn == 1">A linkback will be added to all activities processed by Strautomator.</span>
-                            <span v-else-if="linksOn > 0">A linkback {{ user.isPro ? "can" : "will" }} be added to {{ 100 / linksOn }}% of the activities processed by Strautomator.</span>
+                            <span v-if="linksOn == 1">A linkback will be added to all activities processed by AutoStrive.</span>
+                            <span v-else-if="linksOn > 0">A linkback {{ user.isPro ? "can" : "will" }} be added to {{ 100 / linksOn }}% of the activities processed by AutoStrive.</span>
                             <span v-else>A linkback won't be added to your activities.</span>
                             <v-radio-group v-model="linksOn" :row="$breakpoint.mdAndUp">
                                 <v-radio label="100%" :value="1"></v-radio>
@@ -202,7 +202,7 @@
                     <v-divider class="mt-6 mb-4" />
                     <div class="mt-4">
                         <h3 class="mb-2">AI preferences{{ user.isPro ? "" : " (PRO only)" }}</h3>
-                        <div class="body-2 mb-4">Allow Strautomator to save and process extra activity data so it can generate private AI insights.</div>
+                        <div class="body-2 mb-4">Allow AutoStrive to save and process extra activity data so it can generate private AI insights.</div>
                         <v-switch class="mt-2" title="Enable AI insights (coming soon)" v-model="aiEnabled" :label="aiEnabled ? 'Yes, I want AI insights' : 'No AI insights for me'" :disabled="!user.isPro"></v-switch>
                         <div class="body-2 mb-4">You can select your preferred AI provider, used to generate activity names and descriptions.</div>
                         <v-radio-group v-model="aiProvider" :row="$breakpoint.mdAndUp" :disabled="!user.isPro">
@@ -272,7 +272,7 @@
                     </v-toolbar-items>
                 </v-toolbar>
                 <v-card-text>
-                    <p class="mt-4" v-if="!user.garmin">You can link your Garmin account to your Strautomator profile to use ANT+ sensor IDs and other Garmin data on your automations.</p>
+                    <p class="mt-4" v-if="!user.garmin">You can link your Garmin account to your AutoStrive profile to use ANT+ sensor IDs and other Garmin data on your automations.</p>
                     <p class="mt-4" v-else>You have linked the Garmin account {{ user.garmin.id }} to your profile. If you unlink it, existing automations having Garmin related properties will stop working.</p>
                     <div class="text-right mt-1">
                         <v-spacer></v-spacer>
@@ -305,7 +305,7 @@
                     </v-toolbar-items>
                 </v-toolbar>
                 <v-card-text>
-                    <p class="mt-4" v-if="!user.wahoo">You can link your Wahoo account to your Strautomator profile to use ANT+ sensor IDs paired to your device on your automations.</p>
+                    <p class="mt-4" v-if="!user.wahoo">You can link your Wahoo account to your AutoStrive profile to use ANT+ sensor IDs paired to your device on your automations.</p>
                     <p class="mt-4" v-else>You have linked the Wahoo account {{ user.wahoo.id }} to your profile. If you unlink it, existing automations having Wahoo related properties will stop working.</p>
                     <div class="text-right mt-1">
                         <v-spacer></v-spacer>
@@ -338,7 +338,7 @@
                     </v-toolbar-items>
                 </v-toolbar>
                 <v-card-text>
-                    <p class="mt-4" v-if="!user.spotify">You can link your Spotify account to your Strautomator profile to use recent tracks as part of conditions or actions in your automations.</p>
+                    <p class="mt-4" v-if="!user.spotify">You can link your Spotify account to your AutoStrive profile to use recent tracks as part of conditions or actions in your automations.</p>
                     <p class="mt-4" v-else>You have linked the Spotify account {{ user.spotify.email }} to your profile. If you unlink it, existing automations having Spotify related properties might stop working.</p>
                     <div class="text-right mt-1">
                         <v-spacer></v-spacer>
@@ -385,7 +385,7 @@
                         </p>
                         <p v-if="ftpResult.ftpWatts == ftpResult.ftpCurrentWatts">Keep up the good work!</p>
                         <p v-else-if="!ftpResult.recentlyUpdated">Do you want to update your FTP from {{ ftpResult.ftpCurrentWatts || "0" }} to {{ ftpResult.ftpWatts }} watts on your Strava account now?</p>
-                        <v-alert color="accent" v-else>Your FTP was recently updated by Strautomator, so you'll have to wait 24 hours before using this feature.</v-alert>
+                        <v-alert color="accent" v-else>Your FTP was recently updated by AutoStrive, so you'll have to wait 24 hours before using this feature.</v-alert>
                     </template>
 
                     <div class="text-right mt-1">

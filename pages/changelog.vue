@@ -5,7 +5,7 @@
 
         <v-container class="text-center" fluid>
             <div class="home-wrapper">
-                <h1 class="font-weight-light mt-1 mb-2" :class="$breakpoint.mdAndUp ? 'display-1' : 'headline'">Strautomator</h1>
+                <h1 class="font-weight-light mt-1 mb-2" :class="$breakpoint.mdAndUp ? 'display-1' : 'headline'">AutoStrive</h1>
                 <h2 class="display-2 font-weight-bold mb-4">Changelog</h2>
 
                 <v-card color="black" class="mb-2 text-left">

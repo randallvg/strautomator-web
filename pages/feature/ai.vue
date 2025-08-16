@@ -5,7 +5,7 @@
         <v-card color="black" class="mb-4 home-panel">
             <v-card-text>
                 <div class="text-left">
-                    <p>Tired of boring Strava activity names? Strautomator has AI features to give unique titles, descriptions and poems to your activities!</p>
+                    <p>Tired of boring Strava activity names? AutoStrive has AI features to give unique titles, descriptions and poems to your activities!</p>
                     <p>Your activity metadata, efforts and weather conditions are all taken into consideration when generating the content.</p>
                     <v-img class="mb-8" src="/images/feature/action-auto-generate.png"></v-img>
 

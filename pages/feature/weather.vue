@@ -6,7 +6,7 @@ vue
         <v-card color="black" class="mb-4 home-panel">
             <v-card-text>
                 <div class="text-left">
-                    <p>Strautomator allows you to add icons, temperature, humidity, wind and other weather conditions to your activity details.</p>
+                    <p>AutoStrive allows you to add icons, temperature, humidity, wind and other weather conditions to your activity details.</p>
 
                     <h2 class="mb-2">1. First, create a condition</h2>
                     <v-img class="mb-2" src="/images/feature/condition-passes-on.png"></v-img>
@@ -14,7 +14,7 @@ vue
 
                     <h2 class="mb-2">2. Then, create an action</h2>
                     <v-img class="mb-2" src="/images/feature/action-name-weather.png"></v-img>
-                    <div class="mb-8">The action above tells Strautomator to set the activity name as "Commute" plus the weather icon (sunny, cloudy, rainy etc...).</div>
+                    <div class="mb-8">The action above tells AutoStrive to set the activity name as "Commute" plus the weather icon (sunny, cloudy, rainy etc...).</div>
 
                     <h2 class="mb-2">3. Review your automation</h2>
                     <v-img class="mb-2" src="/images/feature/weather-automation.png"></v-img>

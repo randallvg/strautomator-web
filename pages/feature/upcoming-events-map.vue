@@ -7,7 +7,7 @@ vue
             <v-card-text>
                 <div class="text-left">
                     <p>
-                        Strautomator makes it damn easy for you to decide which club events you should attend to. It pins your upcoming events on a map, and draws the route in case there's one set on Strava. It even support Komoot routes, if they're
+                        AutoStrive makes it damn easy for you to decide which club events you should attend to. It pins your upcoming events on a map, and draws the route in case there's one set on Strava. It even support Komoot routes, if they're
                         linked on the event description!
                     </p>
                     <v-img class="mb-5" src="/images/feature/upcoming-events-map.png"></v-img>
