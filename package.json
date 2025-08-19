@@ -38,7 +38,7 @@
         "json-editor-vue": "^0.18.1",
         "nuxt": "^2.18.1",
         "qs": "^6.14.0",
-        "strautomator-core": "git://github.com/randallvg/strautomator-core.git",
+        "strautomator-core": "randallvg/strautomator-core.git",
         "vanilla-jsoneditor": "^3.8.0",
         "vue": "^2.7.16",
         "vue-mention": "^1.0.0-floating-vue1",
